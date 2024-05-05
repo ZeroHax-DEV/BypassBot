@@ -4,6 +4,8 @@ from pyrogram.filters import command, user
 from os import path as ospath, execl
 from asyncio import create_subprocess_exec
 from sys import executable
+from keep_alive import keep_alive
+keep_alive()
 
 
 @Bypass.on_message(command("restart") & user(Config.OWNER_ID))
