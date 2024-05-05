@@ -18,7 +18,7 @@ from FZBypass.core.bot_utils import AuthChatsTopics, convert_time, BypassFilter
 @Bypass.on_message(command("start"))
 async def start_msg(client, message):
     await message.reply(
-        f"""<b><i>QT Bypass Bot!</i></b>
+        f"""<b><i>LX Bypass Bot!</i></b>
     
     <i><b>Bot Started {convert_time(time() - BOT_START)} ago...</b></i>
 
